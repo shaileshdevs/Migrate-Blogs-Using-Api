@@ -7,6 +7,10 @@
 
 namespace MBUA\Admin;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 if ( ! class_exists( 'Fetch_Authors_Articles_Sub_Menu' ) ) {
     /**
      * Handle fetching authors and articles using API.

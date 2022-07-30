@@ -7,6 +7,10 @@
 
 namespace MBUA;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 if ( ! class_exists( 'Article_Custom_Post_type' ) ) {
     /**
      * Handle Article custom post type.

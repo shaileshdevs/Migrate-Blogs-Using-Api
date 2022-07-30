@@ -1,5 +1,13 @@
 <?php
+/**
+ * Fetch Authors and Articles Template.
+ *
+ * @since 1.0.0
+ */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 ?>
 <div id="mbua-fetch-articles-sub-menu" role="main">
     <div class="mbua-header-wrapper">
