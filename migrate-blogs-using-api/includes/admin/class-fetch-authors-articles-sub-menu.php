@@ -87,7 +87,7 @@ if ( ! class_exists( 'Fetch_Authors_Articles_Sub_Menu' ) ) {
 		 */
 		public function register_sub_menu() {
 			// Register the sub menu 'Fetch Authors and Articles'.
-			add_submenu_page( 'edit.php?post_type=articles', __( 'Fetch Authors & Articles', 'mbua-migrate-blogs' ), __( 'Fetch Authors & Articles', 'mbua-migrate-blogs' ), 'manage_options', 'fetch_articles', array( $this, 'display_content' ) );
+			add_submenu_page( 'edit.php?post_type=articles', __( 'Fetch Users & Articles', 'mbua-migrate-blogs' ), __( 'Fetch Users & Articles', 'mbua-migrate-blogs' ), 'manage_options', 'fetch_articles', array( $this, 'display_content' ) );
 		}
 
 		/**

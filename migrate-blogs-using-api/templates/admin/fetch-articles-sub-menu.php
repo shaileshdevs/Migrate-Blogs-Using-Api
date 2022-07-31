@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div id="mbua-fetch-articles-sub-menu" role="main">
 	<div class="mbua-header-wrapper">
 		<h1 class="mbua-header">
-			<?php esc_html_e( 'Fetch Articles', 'mbua-migrate-blogs' ); ?>
+			<?php esc_html_e( 'Fetch Users and Articles', 'mbua-migrate-blogs' ); ?>
 		</h1>
 	</div>
 	<div class="mbua-content-wrapper">
